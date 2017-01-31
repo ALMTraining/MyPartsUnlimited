@@ -25,12 +25,11 @@ namespace PartsUnlimited
                     "~/Scripts/bootstrap.js"));
 
 
-            bundles.Add(new ScriptBundle("~/bundles/signalr").Include(
-                    "~/Scripts/jquery.signalR-{version}.js",
-                    "~/signalr/hubs"));
+            //bundles.Add(new ScriptBundle("~/bundles/signalr").Include(
+            //        "~/Scripts/jquery.signalR-{version}.js",
+            //        "~/signalr/hubs"));
 
             bundles.Add(new ScriptBundle("~/bundles/site").Include(
-                    "~/Scripts/NewStoreArrivals.js",
                     "~/Scripts/UI-Initialization.js",
                     "~/Scripts/Recommendations.js"));
 
